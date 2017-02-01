@@ -1,0 +1,122 @@
+﻿.form-control {
+    background-color: transparent;
+    border: medium none;
+    box-shadow: none;
+    color: #555;
+    width: 100%;
+    text-align:center;
+}
+
+th {
+    font-weight: 300;
+    text-align: center;
+    
+}
+body {
+    background-color: #FFFCAD;
+}
+.table > thead > tr > th{
+    line-height: 2.429;
+     background-color: white;
+     font-weight: bold;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    background-color: white;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 0;
+}
+
+.table > tbody > tr > td {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 0;
+}
+
+.textPadding {
+    font-weight: 300;
+    padding-top: 4px;   
+    text-align:center;
+    width: 130px;
+    font-weight: bold;
+}
+caption {
+text-align:center;
+padding:6px 0;
+}
+
+.k-dropdown-wrap, .k-numeric-wrap, .k-picker-wrap {
+    padding: 0;
+}
+.k-numerictextbox .k-select {
+    display: none;
+}
+.k-numeric-wrap .k-input{
+    text-align: center;
+    text-indent:0px;
+    line-height: 3.214em;
+    height:auto;
+}
+
+span.k-numerictextbox {
+    width: 100%;
+}
+caption {
+    background-color: #333333;
+    color: #8e8e8e;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+@media only screen and (max-width: 407px) {
+
+    .textPadding {
+        font-weight: bold;
+        padding-top: 2px;
+        padding: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .table > thead > tr > th {
+        background-color: white;
+        font-weight: bold;
+        line-height: 2.429;
+    }
+    body {
+    font-size:11px;
+    }
+}
+
+.table {
+    margin-top: 16px;
+}
+
+#barChart, #pieChart {
+    border: 1px solid #dddddd;
+    background-color:white;
+}
+.heightDiv {
+    height: 16px;
+}
+.positionChart {
+    position: relative;
+}
+
+#bodyColorPicker {
+position: fixed;
+    z-index: 1; 
+    height: 43px;
+    background-color:transparent;
+    padding:3px;
+    cursor:pointer;
+    left:0;
+}
+
+.notBold {
+    font-weight: normal;
+}
